@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projectos</title>
     <link rel="stylesheet" href="output.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header class="flex justify-between w-11/12 m-auto py-6">
@@ -19,17 +20,17 @@
         </nav>
     </header>    
     <main>
-        <section class="w-11/12 flex md:flex-row flex-col h-[85vh] m-auto items-center rounded-md">
-            <img src="" alt="" class="w-full h-full rounded-md border ">
-            <img src="" alt="" class="w-full h-full rounded-md border ">
-            <img src="" alt="" class="w-full h-full rounded-md border ">
-            <button class="absolute p-4 border rounded-lg w-1/4 h-16 ml-[34%] hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out">
+        <section class="w-11/12 flex md:flex-row flex-col h-[85vh] m-auto items-center rounded-md gap-9 ">
+            <img id="1img" src="imgs/boletos.png" alt="" class="w-full h-full rounded-md border-4 border-black blur-sm  shadow-inne">
+            <img id="2img" src="imgs/pagecode.png" alt="" class="w-full h-full rounded-md border-4 border-black blur-sm shadow-inner">
+            <img id="3img" src="imgs/varli.png" alt="" class="w-full h-full rounded-md border-4 border-black blur-sm shadow-inner">
+            <button onmouseover="bluter(2)" onmouseout="blue(2)" class="absolute p-4 border border-b-slate-900 drop-shadow-2xl rounded-lg w-1/4 h-16 ml-[33.5%] bg-indigo-300 hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out text-white">
                 ver
             </button>
-            <button class="absolute p-4 border rounded-lg w-1/4 h-16 ml-[64%] hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out">
+            <button onmouseover="bluter(3)" onmouseout="blue(3)" class="absolute p-4 border border-b-gray-800 rounded-lg w-1/4 h-16 ml-[64.5%] bg-indigo-300 hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out text-white">
                 ver
             </button>
-            <button class="absolute p-4 border rounded-lg w-1/4 h-16 ml-[3.5%] hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out">
+            <button onmouseover="bluter(1)" onmouseout="blue(1)" class="absolute p-4 border border-b-gray-800 rounded-lg w-1/4 h-16 ml-[2%] bg-indigo-300 hover:bg-blue-500 hover:border-white hover:text-white hover:-translate-y-1 hover:scale-110 transition delay-100 duration-150 ease-in-out text-white">
                 ver
             </button>
         </section>
